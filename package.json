@@ -1,5 +1,5 @@
 {
-  "name": "example-eve-agent",
+  "name": "example-eve-assistant-agent",
   "version": "0.0.0",
   "private": true,
   "type": "module",

@@ -1,4 +1,4 @@
-# example-eve-agent
+# example-eve-assistant-agent
 
 A Plain agent built on [eve](https://eve.dev/docs), Vercel's agent framework.
 
@@ -13,10 +13,9 @@ The protocol with the Plain API & webhooks is documented [here](https://www.plai
    `threadDiscussionMessage:create`, `threadDiscussionMessage:edit`, `thread:read` and
    `thread:reply`.
 
-2. Copy `.env.example` to `.env` in this directory.
+2. Copy `.env.example` to `.env` at the repository root.
 
    ```
-   cd example-eve-agent
    cp .env.example .env
    ```
 
@@ -35,7 +34,8 @@ The protocol with the Plain API & webhooks is documented [here](https://www.plai
 
 ```
 nvm use
-npm run serve --no-workspaces
+npm ci
+npm run serve
 ```
 
 Then open a thread in Plain, click Ask Sidekick, pick your agent, and ask it to help with customer requests.

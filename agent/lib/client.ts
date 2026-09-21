@@ -58,7 +58,7 @@ function dotEnvFirst(): Record<string, string | undefined> {
  * the model types it back and a model can invent one. An id lands here two ways only: a webhook
  * delivered it, or one of the queue tools returned it. Anything else is refused.
  *
- * Process-wide rather than per turn, which is weaker than it could be. `example-aisdk-agent`
+ * Process-wide rather than per turn, which is weaker than it could be. `example-aisdk-assistant-agent`
  * builds its tools per turn and scopes the same set to that turn. eve trades that for tools that
  * are independent files, and this is the cost.
  */
