@@ -4,6 +4,8 @@ A Plain agent built on [eve](https://eve.dev/docs), Vercel's agent framework.
 
 The protocol with the Plain API & webhooks is documented [here](https://www.plain.com/docs/agents/internal-agent).
 
+This example was `example-eve-agent` in `team-plain/example-internal-agents` until it was split into this repository. The package name changed with it, to match the repository.
+
 ## Setting it up
 
 1. Create a machine user under [Settings → Machine users](https://app.plain.com/~/settings/machine-users/)
