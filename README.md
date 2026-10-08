@@ -9,7 +9,7 @@ This example was `example-eve-agent` in `team-plain/example-internal-agents` unt
 ## Setting it up
 
 1. Create a machine user under [Settings → Machine users](https://app.plain.com/~/settings/machine-users/)
-   and give it an API key. Turn the "Custom agent" toggle on.
+   and give it an API key. Set its **Type** to **Connected agent**.
 
    Permissions: `threadDiscussion:read`, `threadDiscussion:edit`,
    `threadDiscussionMessage:create`, `threadDiscussionMessage:edit`, `thread:read` and
